@@ -70,7 +70,7 @@ async function testDB() {
         console.log("getAllUsers:", users);
 
         console.log("calling update on user 1")
-        const updateUserResult = await updateUser(users[0].id, {
+        const updateUserResult = await updateUser(users[1].id, {
             name: "Steve",
             location: "Youtube"
         });
